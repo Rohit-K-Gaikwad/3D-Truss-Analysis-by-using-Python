@@ -78,7 +78,7 @@ class TrussHeteroDataCreator:
         return graphData
     
 
-    def AddMasterNode(self, graphData: HeteroData, embeddingDim=1, fillValue=1.):
+    def AddMasterNode(self, graphData: HeteroData, embeddingDim: object = 1, fillValue: object = 1.) -> object:
         if not self.truss:
             raise RuntimeError("No truss has been assigned.")
         
