@@ -5,14 +5,13 @@ DESCRIPTION      = '3D and 2D Truss structural analysis'
 
 
 setup(
-        name="slientruss3d", 
+        name="slientruss3", 
         version=VERSION,
         license="MIT",
-        author="Shih-Chi Cheng",
-        author_email="ezioatiar@gmail.com",
+        author="Rohit-K-Gaikwad",
+        author_email="rgaikwad1998@gmail.com",
         description=DESCRIPTION,
-        url="https://github.com/leo27945875/Python_Stable_3D_Truss_Analysis",
-        download_url=f"https://github.com/leo27945875/Python_Stable_3D_Truss_Analysis/archive/refs/tags/v{VERSION}.tar.gz",
+        url="https://github.com/Rohit-K-Gaikwad/3D-Truss-analysis-by-using-python",
         packages=['slientruss3d'],
         install_requires=['numpy', 'matplotlib>=3.5.1'], 
         keywords=['python', 'truss', 'civil engineering', 'structural analysis'],
